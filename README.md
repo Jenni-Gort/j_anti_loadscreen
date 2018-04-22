@@ -1,7 +1,6 @@
 # J-Anti-Loadscreen
 Petite modification de gmod pour remplacer les écrans de chargement des serveurs
 
-
 Utile pour empêcher les musiques de chargement qui destroy vos oreilles !
 
 # Installation
