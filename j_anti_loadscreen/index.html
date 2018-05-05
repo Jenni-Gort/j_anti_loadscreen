@@ -1,0 +1,19 @@
+<!-- Copy and pasted ^^ -->
+<head>
+    <script language="JavaScript">
+    var randnum = Math.random();
+    var inum = 8;
+    var rand1 = Math.round(randnum * (inum-1)) + 1;
+    images = new Array
+    images[1] = "backgrounds/1.jpg"
+    images[2] = "backgrounds/2.jpg"
+    images[3] = "backgrounds/3.jpg"
+    images[4] = "backgrounds/4.jpg"
+    images[5] = "backgrounds/5.jpg"
+    images[6] = "backgrounds/6.jpg"
+    images[7] = "backgrounds/7.jpg"
+    images[8] = "backgrounds/8.jpg"
+    var image = images[rand1]
+    document.write('<style> body { background: url("' + image + '") no-repeat center center fixed; background-size: 100% 100%; } </style>')
+    </script>
+</head>
